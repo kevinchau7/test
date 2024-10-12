@@ -1,0 +1,285 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 125px;
+    width: 100%;
+    margin-bottom: 2%;
+    background-color: #0e3967;
+    color: #fff;
+}
+
+.header h1 {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 40px;
+    text-shadow: 3px 3px 8px black;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+#addTask {
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #0b73eb;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 2px black
+}
+
+#addTask:hover {
+    box-shadow: 2px 2px 3px black;
+}
+
+#weather {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#theme-toggle {
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #0b73eb;
+    color: #fff;
+    padding-right: 80px;
+    border-radius: 10%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 1px black
+}
+
+#theme-toggle:hover {
+    box-shadow: 2px 2px 3px black;
+}
+
+main {
+    display: flex;
+}
+
+.section{
+    display: flex;
+    margin: 10px;
+    margin-left: 20px;
+    width: 65%; 
+    height: max-content;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+
+#calendar {
+    display: inline-block;
+    margin-left: 90px;
+    width: 100%;
+}
+
+/* maybe? */
+#calendarTable {
+    box-shadow: 2px 2px 3px black;
+
+}
+
+#yearSelect, #monthSelect{
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* added */
+#yearSelect:hover {
+    box-shadow: 1px 1px 2px black;
+}
+
+/* added */
+#monthSelect:hover {
+    box-shadow: 1px 1px 2px black;
+}
+
+/* added */
+#selectMonthYear {
+    font-size: 400%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid black;
+}
+
+tr, th, td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    font-size: 125%;
+    border: 2px solid black
+}
+
+/* numbers in center? or left? */
+td {
+    width: 100px;
+    height: 100px;
+    vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+}
+
+.tdSelected {
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px;
+}
+
+/* added */
+td:hover { 
+    box-shadow: 2px 2px 3px black;
+    font-weight: bold;
+    font-size: 115%;
+}
+
+select {
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    display: block;
+    font-size: 18px;
+}
+
+h3 {
+    border-bottom: 2px solid black;
+    height: 40px; 
+    padding-top: 2px;
+}
+
+#tasks {
+    text-align: center;
+    display: inline-block;
+    margin-top: 160px;
+    width: 20%;
+}
+
+.toDoList {
+    margin-right: 30px;
+    padding-top: 100px;
+}
+
+#listStyle {
+    height: 545px; 
+    width: 100%; 
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px black;
+    margin-left: 80px;
+}
+
+#listStyle button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+#listStyle button:hover {
+    box-shadow: 1px 1px 2px #000000;
+}
+
+#listStyle p {
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 110%;
+    word-wrap: break-word;
+}
+
+body.light-mode #listStyle p::before {
+    content: "•";
+    margin-right: 10px;
+    margin-left: 20px;
+    color:black
+}
+
+body.dark-mode #listStyle p::before {
+    content: "•";
+    margin-right: 10px;
+    margin-left: 20px;
+    color:rgb(255, 255, 255)
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-mode {
+    background-color: #4e4e4e;
+    color: #ffffff;
+}
+
+body.light-mode table {
+    background-color: #f5f4f4;
+}
+
+body.dark-mode table{
+    background-color: #6b6b6b;
+}
+
+body.light-mode thead {
+    background-color: #c9e0fa;   
+}
+
+body.dark-mode thead {
+    background-color: #6885a7;   
+}
+
+body.light-mode #listStyle {
+    background-color: #f5f4f4;
+}
+
+body.dark-mode #listStyle {
+    background-color: #6b6b6b;
+}
+
+body.light-mode h3 {
+    background-color: #c9e0fa;   
+}
+
+body.dark-mode h3 {
+    background-color: #6885a7;   
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: #0e3967;
+    margin-top: 2%;
+}
