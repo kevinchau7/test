@@ -20,17 +20,18 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 Provide instructions and examples for use. Include screenshots as needed.
 
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+    ![alt text](readme images/snapshot 1.jpg)
+    ![alt text](readme images/snapshot 2.jpg)
+    ![alt text](readme images/snapshot 3.jpg)
+    ![alt text](readme images/snapshot 4.jpg)
+ 
 
 ## Credits
-Ethan Maller 
-Brian Solano
-Christopher Fortier
-Justin Miller
-Hon chau
+ * Ethan Maller  https://github.com/ejmaller7
+ * Brian Solano https://github.com/brolano
+ * Christopher Fortier  https://github.com/ChrisFort03
+ * Justin Miller  https://github.com/JPMill
+ * Hon chau  https://github.com/kevinchau7
 
 List your collaborators, if any, with links to their GitHub profiles.
 
