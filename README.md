@@ -24,16 +24,16 @@ Toggle the month, The Background pictures change
 
 Weather station- input city and give you the weather.
 <p>
-<img src = "./Readmeimages/snapshot2.JPG"></p>
+<img src = "./Readmeimages/snapshot2.JPG" height = 60% width = 60%></p>
 
 To do list can be toggled by the date, and input your plan
-<p><img src = "./Readmeimages/snapshot3.JPG"></p>
+<p><img src = "./Readmeimages/snapshot3.JPG" height = 60% width = 60%></p>
 
 Dark=light mode button will toggle the background color.
-<p><img src = "./Readmeimages/snapshot4.JPG"></p>
+<p><img src = "./Readmeimages/snapshot4.JPG" height = 60% width = 60%></p>
 
 Media Query:
-<p><img src = "./Readmeimages/snapshot5.JPG"></p>
+<p><img src = "./Readmeimages/snapshot5.JPG" height = 60% width = 60%></p>
 
 
 ## Credits
