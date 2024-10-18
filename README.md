@@ -20,11 +20,10 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 Provide instructions and examples for use. Include screenshots as needed.
 
-    ![alt text](/test/Readme%20images/snapshot 1.jpg)
-    ![alt text](/test/Readme%20images/snapshot 2.jpg)
-    ![alt text](/test/Readme%20images/snapshot 3.jpg)
-    ![alt text](/test/Readme%20images/snapshot%204.JPG)
- 
+    ![alt text](./Readme%20images/snapshot%201.JPG)
+    ![alt text](./Readme%20images/snapshot%202.JPG)
+    ![alt text](./Readme%20images/snapshot%203.JPG)
+    ![alt text](./Readme%20images/snapshot%204.JPG)
 
 ## Credits
  * Ethan Maller  https://github.com/ejmaller7
