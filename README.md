@@ -18,22 +18,22 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-Background pictures change when the month changes.
-<img src = "./Readmeimages/snapshot1.JPG">
+Toggle the month, The Background pictures change 
+<p>
+<img src = "./Readmeimages/snapshot1.JPG" height = 60% width = 60%></p>
 
 Weather station- input city and give you the weather.
-<img src = "./Readmeimages/snapshot2.JPG">
+<p>
+<img src = "./Readmeimages/snapshot2.JPG"></p>
 
 To do list can be toggled by the date, and input your plan
-<img src = "./Readmeimages/snapshot3.JPG">
+<p><img src = "./Readmeimages/snapshot3.JPG"></p>
 
 Dark=light mode button will toggle the background color.
-<img src = "./Readmeimages/snapshot4.JPG">
+<p><img src = "./Readmeimages/snapshot4.JPG"></p>
 
 Media Query:
-<img src = "./Readmeimages/snapshot5.JPG">
+<p><img src = "./Readmeimages/snapshot5.JPG"></p>
 
 
 ## Credits
