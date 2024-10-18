@@ -20,6 +20,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 Provide instructions and examples for use. Include screenshots as needed.
 
+<img src = "test\Readmeimages\snapshot1.JPG">
     ![alt text](test\Readmeimages\snapshot1.JPG)
     ![alt text](./Readmeimages/snapshot2.JPG)
     ![alt text](./Readmeimages/snapshot3.JPG)
