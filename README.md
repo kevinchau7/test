@@ -20,10 +20,10 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 Provide instructions and examples for use. Include screenshots as needed.
 
-    ![alt text](readme images/snapshot 1.jpg)
-    ![alt text](readme images/snapshot 2.jpg)
-    ![alt text](readme images/snapshot 3.jpg)
-    ![alt text](readme images/snapshot 4.jpg)
+    ![alt text](/test/Readme%20images/snapshot 1.jpg)
+    ![alt text](/test/Readme%20images/snapshot 2.jpg)
+    ![alt text](/test/Readme%20images/snapshot 3.jpg)
+    ![alt text](/test/Readme%20images/snapshot%204.JPG)
  
 
 ## Credits
